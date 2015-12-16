@@ -1,0 +1,6 @@
+          Betty Boop                  66               22.00
+           Tom Ceina                  41               15.45
+           Kathy Kay                  43                8.90
+         Larry Lance                  52               11.35
+           test test                   0                  15
+          James Luck                  30                  18

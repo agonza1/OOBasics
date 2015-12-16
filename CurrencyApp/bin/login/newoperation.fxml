@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<StackPane prefHeight="218.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.menuoperationController">
+  <children>
+    <StackPane>
+      <children>
+        <VBox spacing="15.0">
+          <children>
+            <GridPane prefHeight="121.0" prefWidth="338.0">
+              <children>
+                <Label text="New Operation" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label text="Source Currency" textFill="#6b6565" GridPane.rowIndex="1" />
+                        <Label prefHeight="17.0" prefWidth="73.0" text="To Currency" textFill="#6b6565" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <ChoiceBox fx:id="destcurrency" prefHeight="25.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <ChoiceBox fx:id="srccurrency" prefHeight="25.0" prefWidth="100.0" GridPane.rowIndex="2" />
+                        <TextField fx:id="textval" prefHeight="25.0" prefWidth="156.0" text="E.g. 1000" GridPane.rowIndex="3" />
+              </children>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="180.0" minWidth="10.0" prefWidth="180.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.0" minWidth="10.0" prefWidth="196.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+            <StackPane prefHeight="0.0" prefWidth="403.0" />
+                  <GridPane prefHeight="26.0" prefWidth="342.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="359.0" minWidth="10.0" prefWidth="225.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="302.0" minWidth="10.0" prefWidth="170.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                <Button fx:id="saveButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Done" GridPane.columnIndex="1" />
+                        <Button fx:id="backButton" alignment="CENTER" contentDisplay="RIGHT" defaultButton="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Back" translateX="80.0" />
+                     </children>
+                  </GridPane>
+          </children>
+        </VBox>
+      </children>
+    </StackPane>
+  </children>
+  <padding>
+    <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+  </padding>
+</StackPane>

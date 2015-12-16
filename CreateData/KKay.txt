@@ -1,0 +1,7 @@
+***************Payroll Report***************
+      Employee name:           Kathy Kay
+              Hours:                  43
+              Wages:               $8.90
+          Gross pay:             $396.05
+       Overtime Pay:              $40.05(Included in gross pay)
+********************************************

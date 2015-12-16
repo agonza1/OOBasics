@@ -1,0 +1,7 @@
+***************Payroll Report********************
+      Employee name:           test test
+              Hours:                   0
+              Wages:              $15.00
+          Gross pay:               $0.00
+       Overtime Pay:               $0.00(Included in gross pay)
+*************************************************

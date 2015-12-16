@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<StackPane prefHeight="251.0" prefWidth="419.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.deleteuserController">
+  <children>
+    <StackPane>
+      <children>
+        <VBox prefHeight="228.0" prefWidth="414.0" spacing="15.0">
+          <children>
+            <GridPane prefHeight="74.0" prefWidth="403.0">
+              <children>
+                <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <TextField fx:id="user" promptText="user" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+              </children>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="148.0" minWidth="10.0" prefWidth="109.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.0" minWidth="10.0" prefWidth="189.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+                  <ListView fx:id="listusers" prefHeight="91.0" prefWidth="358.0" />
+            <StackPane prefHeight="0.0" prefWidth="403.0" />
+                  <GridPane prefHeight="26.0" prefWidth="342.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="359.0" minWidth="10.0" prefWidth="225.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="302.0" minWidth="10.0" prefWidth="170.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                <Button fx:id="saveButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Delete" GridPane.columnIndex="1" />
+                        <Button fx:id="cancelButton" alignment="CENTER" contentDisplay="RIGHT" defaultButton="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Cancel" translateX="80.0" />
+                     </children>
+                  </GridPane>
+          </children>
+        </VBox>
+      </children>
+    </StackPane>
+  </children>
+  <padding>
+    <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+  </padding>
+</StackPane>
